@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "font-synthesis"
+        ]
+      }
+    ]
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 118",
+    "not firefox <= 118",
+    "not and_chr <= 118",
+    "not chrome <= 118",
+    "not edge <= 118",
+    "not safari <= 17.1",
+    "not samsung <= 22",
+    "not ios_saf <= 17.1",
+    "not opera <= 103"
+  ]
+}
